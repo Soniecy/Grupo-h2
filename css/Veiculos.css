@@ -1,0 +1,13 @@
+*{
+  background: blue;
+  margin: 0;
+}
+  
+class id1{
+  width: 400px;
+}
+main ul li{
+  display: inline-flex;
+  width: 330;
+  
+}
