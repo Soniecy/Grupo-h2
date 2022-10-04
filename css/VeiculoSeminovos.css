@@ -14,5 +14,6 @@ class id1{
 main ul li{
   display: inline-flex;
   width: 330;
+  height: auto;
   
 }
