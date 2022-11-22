@@ -8,7 +8,8 @@ const app = express();
 const login = require('./src/routes/routerlogin');
 const finalizacaodecompra = require('./src/routes/routerFinalizacao');
 const sucessodacompra = require('./src/routes/routerSucesso');
-const produtoInterno = require('./src/routes/routerProdutoInterno')
+const produtoInterno = require('./src/routes/routerProdutoInterno');
+const usuario = require('./src/routes/routerPainel');
 
 
 // qual view engine vamos usar
@@ -31,6 +32,7 @@ app.use(login)
 app.use(finalizacaodecompra)
 app.use(sucessodacompra)
 app.use(produtoInterno)
+app.use(usuario);
 
 
 
